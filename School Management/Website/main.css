@@ -1,0 +1,186 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+nav {
+  display: inline flex;
+  height: 2.5em;
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 0.5em;
+  color: #041AF0;
+  font-size: 1.2em;
+  font-weight: 500;
+  padding: 0.2em 0.5em;
+}
+nav a:hover {
+  background-color: aquamarine;
+}
+#top {
+  background-color: bisque;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  display: inline-flex;
+  width: 100%;
+  align-content: center;
+}
+#top img {
+  width: 3em;
+  height: 6em;
+  padding-right: 1.2em;
+}
+#contain {
+  display: flex;
+  min-height: 70vh;
+}
+#element {
+  float: left;
+  width: 100%;
+}
+#element button{
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: large;
+	margin-left: 0.25em;
+	margin-top: 0.25em;
+}
+
+#logon {
+  width: 41%;
+  height: 19.5em;
+  background-color:ghostwhite;
+  border-radius: 1.5em;
+  float: right;
+  padding: 0.75em 0.25em;
+  margin-right: 0.25em;
+	overflow: hidden;
+}
+#logon1{
+	background-color: azure;
+	border-radius: 1.5em;
+	width: 100%;
+	}
+#logon2{
+	background-color:cornsilk;
+	border-radius: 1.5em;
+	width: 100%;
+}
+#logon3{
+	background-color:mistyrose;
+	border-radius: 1.5em;
+	width: 100%;
+}
+#logon fieldset {
+  padding: 0.05em 0.05em;
+  height: 20em;
+  border-radius: 1.5em;
+  width: 99%;
+}
+#logon input {
+  height: 2.5em;
+  margin: 1em 0.5em;
+  width: 10em;
+  border-radius: 0.5em;
+  padding: 0.5em 0.75em;
+}
+#logon fieldset p {
+  text-align: center;
+}
+#logon label {
+  padding: 0.8em;
+}
+#directory {
+    min-height: 75vh;
+    border: medium solid #BD2CD1;
+	text-transform: uppercase;
+	
+	
+   
+}
+#directory span {
+  text-align: center;
+	padding: 1.5em;
+	display: flex;
+	border: ridge;
+}
+#units{
+	margin: 1.5em;
+	
+}
+#units table{
+	border: 2px solid #0AEA45;
+	border-collapse: collapse;
+}
+#units th,td{
+	padding: 0.5em;
+	border: 2px solid #15C9EB;
+	
+}
+#regunits{
+	display: flex;
+	margin: 1.5em;
+}
+#regunits input{
+	display: flex;
+	padding: 1em;
+	margin: 0.5em;
+}
+#regunits button{
+	margin: 0.75em 2.5em;;
+	padding: 0.5em;
+	
+}
+#entryform{
+	display:flex;
+	margin: 1em;
+	min-height: 70vh;
+}
+#entryform button{
+	display: flex;
+	margin: 2em 15em;
+	padding: .5em;
+	font-size: 1em;
+	text-transform: capitalize;
+}
+#studform{
+	height:50%;
+	display: flex;
+	flex-basis: auto;
+}
+#studform label{
+	display: inline-flex;
+	padding: 1em 0.75em;
+	margin-right: -0.5em;
+	margin-left: 1em;
+	height: 2.5em;
+}
+#studform input{
+	height: 2.5em;
+}
+#lecform{
+	height:50%;
+	display: flex;
+	flex-basis: auto;
+}
+#lecform label{
+	display: inline-flex;
+	padding: 1em 0.75em;
+	margin-right: -0.5em;
+	margin-left: 1em;
+	height: 2.5em;
+}
+#lecform input{
+	height: 2.5em;
+}
+footer {
+  clear: both;
+  width: 100%;
+  background-color: paleturquoise;
+  display: flow-root;
+  text-align: center;
+  font-size: 1.2em;
+  bottom: 0;
+}
